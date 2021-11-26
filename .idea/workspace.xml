@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c96431b-ac37-49e0-9107-bfd719d846a1" name="Changes" comment="" />
+    <list default="true" id="3c96431b-ac37-49e0-9107-bfd719d846a1" name="Changes" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/desert4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Runner/AnimatedThing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runner/AnimatedThing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Runner/Camera.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runner/Camera.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Runner/GameScene.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runner/GameScene.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Runner/staticThing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Runner/staticThing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimatedThing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimatedThing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Camera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/staticThing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/staticThing.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,5 +93,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>

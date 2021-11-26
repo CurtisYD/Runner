@@ -19,22 +19,18 @@ public class staticThing {
     private ImageView sprite;
 
 
-
     public staticThing (double X, double Y, String fileName) {
-
+        // Affichage backround
         sprite = new ImageView(fileName);
-
-        //sprite.setViewport(new Rectangle2D(0,0,800,400));
         sprite.setX(X);
         sprite.setY(Y);
-        //Slider speedSlider = new Slider(0, 5, 5);
-        TranslateTransition trans1 = new TranslateTransition(Duration.seconds(5), sprite);
+
+       //Translation du backround
+        TranslateTransition trans1 = new TranslateTransition(Duration.seconds(2.5), sprite);
         trans1.setFromX(0);
-        trans1.setToX(-2398);
+        trans1.setToX(-800);
         trans1.setInterpolator(Interpolator.LINEAR);
         trans1.setCycleCount(Animation.INDEFINITE);
-        //trans1.rateProperty().bind(speedSlider.valueProperty());
-
         trans1.play();
    }
 
@@ -42,7 +38,6 @@ public class staticThing {
         public ImageView getSprite() {
             return sprite;
         }
-
 
 
 }

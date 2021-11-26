@@ -18,22 +18,22 @@ import java.io.File;
 public class GameScene extends Scene {
 
     private static int cam;
-    private static GameScene timers;
+
     Camera CamJeux = new Camera(0, 0);
-    public int saut = 0;
 
     public GameScene(Pane pane, int X, int Y) {
         super(pane, X, Y);
-        timer.start();
+
         Pane root = pane;
         root.getChildren().addAll(left.getSprite());
         root.getChildren().addAll(right.getSprite());
         root.getChildren().addAll(StartH.getPerso());
+        timer.start();
         makejump();
     }
 
-    staticThing left = new staticThing(0, 0, "C:\\Staticz\\School\\S7\\Informatique\\Java Labs\\Projet\\Image\\desert4.png");
-    staticThing right = new staticThing(2400, 0, "C:\\Staticz\\School\\S7\\Informatique\\Java Labs\\Projet\\Image\\desert4.png");
+    staticThing left = new staticThing(0, 0, "C:\\Staticz\\School\\S7\\Informatique\\Java Labs\\Projet\\Image\\desert.png");
+    staticThing right = new staticThing(800, 0, "C:\\Staticz\\School\\S7\\Informatique\\Java Labs\\Projet\\Image\\desert.png");
     Hero StartH = new Hero(350, 250, "C:\\Staticz\\School\\S7\\Informatique\\Java Labs\\Projet\\Image\\Heros.png");
 
     AnimationTimer timer = new AnimationTimer() {
@@ -54,23 +54,14 @@ public class GameScene extends Scene {
         return timer;
     }
 
-    private static void update(long time) {
-
-    }
-
     void makejump() {
         this.setOnMouseClicked(event -> {
-            saut=1;
-            //System.out.println("Jump");
-            //System.out.println(saut);
-            AnimatedThing.jump(timer,saut);
 
-
+            System.out.println("Jump");
+            AnimatedThing.jump();
         });
-
     }
 
-    public int getSaut() {
-        return saut;
+    private static void update(long time) {
     }
 }
